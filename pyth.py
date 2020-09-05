@@ -5,7 +5,7 @@ my_functions = CDLL(so)
 
 cfun = CDLL("/home/bilal/Desktop/cadence/python/my_functions.so")
 
-print("first instance is ",cfun.square(5))
+print("first instance: ",cfun.square(5))
 
 print(my_functions.square(10))
 
